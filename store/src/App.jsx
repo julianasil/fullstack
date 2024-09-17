@@ -7,7 +7,7 @@ function App() {
   return <FilterProductTable>
     <SearchBar />
     <ProductTable />
-  </FilterProductTable>
+  </FilterProductTable> 
   
   
 }
