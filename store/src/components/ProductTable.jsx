@@ -21,11 +21,11 @@ const ProductTable = () => {
             <Table.ColumnHeader>5</Table.ColumnHeader>
           </Table.Row>
           <Table.Row>
-            <Table.ColumnHeader>Basketball</Table.ColumnHeader>
+            <Table.ColumnHeader>Shuttlecock</Table.ColumnHeader>
             <Table.ColumnHeader>5</Table.ColumnHeader>
           </Table.Row>
           <Table.Row>
-            <Table.ColumnHeader>Football</Table.ColumnHeader>
+            <Table.ColumnHeader>Tennisball</Table.ColumnHeader>
             <Table.ColumnHeader>5</Table.ColumnHeader>
           </Table.Row>
           <Table.Row>
@@ -36,7 +36,7 @@ const ProductTable = () => {
             <Table.ColumnHeader>5</Table.ColumnHeader>
           </Table.Row>
           <Table.Row>
-            <Table.ColumnHeader>Eball</Table.ColumnHeader>
+            <Table.ColumnHeader>Electronicball</Table.ColumnHeader>
             <Table.ColumnHeader>5</Table.ColumnHeader>
           </Table.Row>
         </Table.TBody>
