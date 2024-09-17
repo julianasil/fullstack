@@ -22,11 +22,11 @@ const ProductTable = () => {
           </Table.Row>
           <Table.Row>
             <Table.ColumnHeader>Shuttlecock</Table.ColumnHeader>
-            <Table.ColumnHeader>5</Table.ColumnHeader>
+            <Table.ColumnHeader>500</Table.ColumnHeader>
           </Table.Row>
           <Table.Row>
             <Table.ColumnHeader>Tennisball</Table.ColumnHeader>
-            <Table.ColumnHeader>5</Table.ColumnHeader>
+            <Table.ColumnHeader>1</Table.ColumnHeader>
           </Table.Row>
           <Table.Row>
             <Table.ColumnHeader>Electronic Goods</Table.ColumnHeader>
@@ -37,7 +37,7 @@ const ProductTable = () => {
           </Table.Row>
           <Table.Row>
             <Table.ColumnHeader>Electronicball</Table.ColumnHeader>
-            <Table.ColumnHeader>5</Table.ColumnHeader>
+            <Table.ColumnHeader>86</Table.ColumnHeader>
           </Table.Row>
         </Table.TBody>
 
