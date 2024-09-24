@@ -5,8 +5,8 @@ const ProductItem = (props) => {
   return (
     <div>
       <Table.Row>
-            <Table.ColumnHeader>{props.name}</Table.ColumnHeader>
-            <Table.ColumnHeader>${props.price.toFixed(2)}</Table.ColumnHeader>
+            <Table.Column>{props.name}</Table.Column>
+            <Table.Column>${props.price.toFixed(2)}</Table.Column>
           </Table.Row>
     </div>
   )
