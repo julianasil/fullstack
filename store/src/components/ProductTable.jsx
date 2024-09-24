@@ -1,5 +1,6 @@
 import React from 'react';
 import Table from './Table';
+import ProductItem from './products/ProductItem';
 
 const ProductTable = () => {
   return (
@@ -16,29 +17,9 @@ const ProductTable = () => {
           <Table.Row>
             <Table.ColumnHeader>Sporting Goods</Table.ColumnHeader>
           </Table.Row>
-          <Table.Row>
-            <Table.ColumnHeader>Basball</Table.ColumnHeader>
-            <Table.ColumnHeader>5</Table.ColumnHeader>
-          </Table.Row>
-          <Table.Row>
-            <Table.ColumnHeader>Shuttlecock</Table.ColumnHeader>
-            <Table.ColumnHeader>500</Table.ColumnHeader>
-          </Table.Row>
-          <Table.Row>
-            <Table.ColumnHeader>Tennisball</Table.ColumnHeader>
-            <Table.ColumnHeader>1</Table.ColumnHeader>
-          </Table.Row>
-          <Table.Row>
-            <Table.ColumnHeader>Electronic Goods</Table.ColumnHeader>
-          </Table.Row>
-          <Table.Row>
-            <Table.ColumnHeader>Electricball</Table.ColumnHeader>
-            <Table.ColumnHeader>5</Table.ColumnHeader>
-          </Table.Row>
-          <Table.Row>
-            <Table.ColumnHeader>Electronicball</Table.ColumnHeader>
-            <Table.ColumnHeader>86</Table.ColumnHeader>
-          </Table.Row>
+          <ProductItem name="Tennis" price={99.9} />
+          <ProductItem name="Badminton" price={99.9} />
+          <ProductItem name="Basketball" price={99.99} />
         </Table.TBody>
 
         </Table.TableContainer>
