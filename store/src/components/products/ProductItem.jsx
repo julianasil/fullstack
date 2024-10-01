@@ -1,15 +1,15 @@
-import React from 'react'
-import Table from '../Table';
+import React from "react";
+import Table from "../Table";
 
 const ProductItem = (props) => {
   return (
-    <div>
-      <Table.Row>
-            <Table.Column>{props.name}</Table.Column>
-            <Table.Column>${props.price.toFixed(2)}</Table.Column>
-          </Table.Row>
-    </div>
-  )
-}
+    <Table.Row>
+      <Table.Column>{props.name}</Table.Column>
+      <Table.Column>
+        ${props.price > 0 ? props.price.toFixed(2) : 0}
+      </Table.Column>
+    </Table.Row>
+  );
+};
 
-export default ProductItem
+export default ProductItem;
