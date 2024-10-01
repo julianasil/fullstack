@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "./Table";
 import ProductItem from "./products/ProductItem";
-import ProductCategoryHeader from "./products/ProductCategoryHeader";
+import ProductCategoryHeader from "./ProductCategoryHeader";
 
 const ProductTable = ({ headers, products }) => {
   const sportingGoods = products.filter((product) => product.type === 1);

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import FilterProductTable from "./components/FilterProductTable";
 import ProductTable from "./components/ProductTable";
@@ -19,9 +20,12 @@ const products = [
 const headers = ["Sporting Goods", "Electronics"];
 
 function App() {
+
+  const [query, setQuery] =useState("default value");
+
   return (
     <FilterProductTable>
-      <SearchBar />
+      <SearchBar query={query} setQuery={setQuery}/>
 
       <ProductTable headers={headers} products={products} />
     </FilterProductTable>
